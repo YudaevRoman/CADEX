@@ -5,9 +5,6 @@
 #define BASIC_CURVES_MACRO
 #define CIRCLE_MACRO
 #include "../../../inc/headers.hpp"
-#undef CIRCLE_MACRO
-#undef BASIC_CURVES_MACRO
-#undef LIMITING_COEFFICIENTS_MACRO
 
 namespace Curves {
 
@@ -30,5 +27,10 @@ namespace Curves {
             return {-radius * std::sin(t_parameter),
                     radius * std::cos(t_parameter), 0};
         }
+
+        double Circle::Get_Radius() const {
+            return radius;
+        }
+
     }  // namespace BasicCurves
 }  // namespace Curves

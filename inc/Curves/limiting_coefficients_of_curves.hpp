@@ -2,7 +2,11 @@
 В данном файле заданы ограничения для коэффициентов кривых
 */
 
+#pragma once
+
 namespace Curves {
+
+    extern double ACCURACY;
 
     extern double MIN_RADIUS_FOR_CIRCLE;
     extern double MAX_RADIUS_FOR_CIRCLE;

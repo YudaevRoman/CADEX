@@ -5,9 +5,6 @@
 #define BASIC_CURVES_MACRO
 #define ELLIPSE_MACRO
 #include "../../../inc/headers.hpp"
-#undef ELLIPSE_MACRO
-#undef BASIC_CURVES_MACRO
-#undef LIMITING_COEFFICIENTS_MACRO
 
 
 namespace Curves {
@@ -37,5 +34,14 @@ namespace Curves {
             return {-radius_by_x * std::sin(t_parameter),
                     radius_by_y * std::cos(t_parameter), 0};
         }
+
+        double Ellipse::Get_Radius_By_X() const {
+            return radius_by_x;
+        }
+
+        double Ellipse::Get_Radius_By_Y() const {
+            return radius_by_y;
+        }
+
     }  // namespace BasicCurves
 }  // namespace Curves

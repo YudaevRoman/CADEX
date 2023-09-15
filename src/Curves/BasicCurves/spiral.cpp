@@ -1,6 +1,3 @@
-
-#include "../../../inc/Curves/BasicCurves/spiral.hpp"
-
 #include <cmath>
 #include <stdexcept>
 
@@ -8,9 +5,6 @@
 #define BASIC_CURVES_MACRO
 #define SPIRAL_MACRO
 #include "../../../inc/headers.hpp"
-#undef SPIRAL_MACRO
-#undef BASIC_CURVES_MACRO
-#undef LIMITING_COEFFICIENTS_MACRO
 
 namespace Curves {
 
@@ -37,6 +31,14 @@ namespace Curves {
         Point3D Spiral::Get_Derivative(double t_parameter) const {
             return {-radius * std::sin(t_parameter),
                     radius * std::cos(t_parameter), stap};
+        }
+
+        double Spiral::Get_Radius() const {
+            return radius;
+        }
+
+        double Spiral::Get_Stap() const {
+            return stap;
         }
 
     }  // namespace BasicCurves

@@ -7,7 +7,6 @@
 #pragma once
 #define POINT3D_MACRO
 #include "../../headers.hpp"
-#undef POINT3D_MACRO
 
 namespace Curves {
     namespace BasicCurves {

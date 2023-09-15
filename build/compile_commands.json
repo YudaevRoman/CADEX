@@ -28,5 +28,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\spiral.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\spiral.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\spiral.cpp",
   "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\spiral.cpp.obj"
+},
+{
+  "directory": "C:/Users/Leere/Desktop/CADEX/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\TestTask\\test_task.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\TestTask\\test_task.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\TestTask\\test_task.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\src\\TestTask\\test_task.cpp.obj"
 }
 ]

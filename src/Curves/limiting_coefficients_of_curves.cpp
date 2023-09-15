@@ -1,6 +1,9 @@
+#define LIMITING_COEFFICIENTS_MACRO
 #include "../../inc/headers.hpp"
 
 namespace Curves {
+
+    double ACCURACY = 0.0001;
 
     double MIN_RADIUS_FOR_CIRCLE = 0;
     double MAX_RADIUS_FOR_CIRCLE = 1'000;

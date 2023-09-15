@@ -4,13 +4,10 @@
 раддиусов по оси абсцисс и ординат
 */
 
-
 #pragma once
 #define BASIC_CURVES_MACRO
 #define CURVE_MACRO
 #include "../../headers.hpp"
-#undef CURVE_MACRO
-#undef BASIC_CURVES_MACRO
 
 namespace Curves {
 
@@ -25,6 +22,8 @@ namespace Curves {
             Ellipse(double _radius_by_x, double _radius_by_y);
             Point3D Get_Point(double t_parameter) const override;
             Point3D Get_Derivative(double t_parameter) const override;
+            double  Get_Radius_By_X() const;
+            double  Get_Radius_By_Y() const;
         };
     }  // namespace BasicCurves
 }  // namespace Curves
