@@ -15,7 +15,7 @@ using namespace BasicCurves;
 namespace TestTask {
 
     extern const int    MIN_CONTAINER_SIZE = 1;
-    extern const int    MAX_CONTAINER_SIZE = 20;
+    extern const int    MAX_CONTAINER_SIZE = 10;
     extern const double parameter_t        = M_PI_4;
 
     std::random_device rd;
@@ -68,7 +68,7 @@ namespace TestTask {
                         Get_Random_Real(MIN_RADIUS_FOR_SPIRAL + ACCURACY,
                                         MAX_RADIUS_FOR_SPIRAL - ACCURACY),
                         Get_Random_Real(MIN_STAP_FOR_SPIRAL + ACCURACY,
-                                        MIN_STAP_FOR_SPIRAL - ACCURACY)));
+                                        MAX_STAP_FOR_SPIRAL - ACCURACY)));
                     break;
                 }
             }
@@ -100,7 +100,7 @@ namespace TestTask {
 
             circle = dynamic_cast<Circle*>(elem);
             if (circle) {
-                buffer.append("circle" + '\n');
+                buffer.append("circle\n");
                 Output_Curves(buffer, elem->Get_Point(parameter_t),
                               elem->Get_Derivative(parameter_t));
                 circle = nullptr;
@@ -109,7 +109,7 @@ namespace TestTask {
 
             ellipse = dynamic_cast<Ellipse*>(elem);
             if (ellipse) {
-                buffer.append("ellipse" + '\n');
+                buffer.append("ellipse\n");
                 Output_Curves(buffer, elem->Get_Point(parameter_t),
                               elem->Get_Derivative(parameter_t));
                 ellipse = nullptr;
@@ -118,7 +118,7 @@ namespace TestTask {
 
             spiral = dynamic_cast<Spiral*>(elem);
             if (spiral) {
-                buffer.append("spiral" + '\n');
+                buffer.append("spiral\n");
                 Output_Curves(buffer, elem->Get_Point(parameter_t),
                               elem->Get_Derivative(parameter_t));
                 spiral = nullptr;
@@ -131,17 +131,17 @@ namespace TestTask {
 
         buffer.append("Point: x = ");
         buffer.append(std::to_string(point.x));
-        buffer.append(",y = ");
+        buffer.append(", y = ");
         buffer.append(std::to_string(point.y));
-        buffer.append(",z = ");
+        buffer.append(", z = ");
         buffer.append(std::to_string(point.z));
         buffer.push_back('\n');
 
         buffer.append("Derivative: x = ");
         buffer.append(std::to_string(derivative.x));
-        buffer.append(",y = ");
+        buffer.append(", y = ");
         buffer.append(std::to_string(derivative.y));
-        buffer.append(",z = ");
+        buffer.append(", z = ");
         buffer.append(std::to_string(derivative.z));
         buffer.append("\n\n");
     }
