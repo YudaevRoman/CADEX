@@ -11,6 +11,7 @@ add_executable(
         src/Curves/limiting_coefficients_of_curves.cpp
 
         src/Curves/BasicCurves/circle.cpp 
+        src/Curves/BasicCurves/ellipse.cpp 
     )
 
 set(EXECUTABLE_OUTPUT_PATH "../bin")

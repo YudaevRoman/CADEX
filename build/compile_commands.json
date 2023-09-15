@@ -16,5 +16,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\circle.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\circle.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\circle.cpp",
   "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\circle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Leere/Desktop/CADEX/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\ellipse.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\ellipse.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\ellipse.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\ellipse.cpp.obj"
 }
 ]

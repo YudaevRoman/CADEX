@@ -12,7 +12,7 @@ namespace Curves {
         Circle::Circle(double _radius) {
             if (_radius < MIN_RADIUS_FOR_CIRCLE ||
                 _radius > MAX_RADIUS_FOR_CIRCLE) {
-                throw std::invalid_argument("Invalid radius");
+                throw std::invalid_argument("Invalid radius\n");
             }
             radius = _radius;
         }

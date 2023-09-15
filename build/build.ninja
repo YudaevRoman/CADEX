@@ -235,6 +235,12 @@ build CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\CADEX.dir
   OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\src\Curves\BasicCurves
 
+build CMakeFiles/CADEX.dir/src/Curves/BasicCurves/ellipse.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/src/Curves/BasicCurves/ellipse.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\src\Curves\BasicCurves\ellipse.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\CADEX.dir
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\src\Curves\BasicCurves
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CADEX
@@ -243,7 +249,7 @@ build CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable C:\Users\Leere\Desktop\CADEX\bin\CADEX.exe
 
-build C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe: CXX_EXECUTABLE_LINKER__CADEX_Debug CMakeFiles/CADEX.dir/main.cpp.obj CMakeFiles/CADEX.dir/src/Curves/limiting_coefficients_of_curves.cpp.obj CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj
+build C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe: CXX_EXECUTABLE_LINKER__CADEX_Debug CMakeFiles/CADEX.dir/main.cpp.obj CMakeFiles/CADEX.dir/src/Curves/limiting_coefficients_of_curves.cpp.obj CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj CMakeFiles/CADEX.dir/src/Curves/BasicCurves/ellipse.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CADEX.dir
