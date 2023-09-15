@@ -1,0 +1,47 @@
+Language: Cpp
+
+BasedOnStyle: Google 
+
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
+AlignTrailingComments: 
+  Kind: Always
+AllowShortBlocksOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: Empty
+LambdaBodyIndentation: Signature
+BreakStringLiterals: true
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+InsertBraces: true
+KeepEmptyLinesAtTheStartOfBlocks: true
+
+AlignArrayOfStructures: Right
+IndentWrappedFunctionNames: true
+SeparateDefinitionBlocks: Leave
+SpaceBeforeCpp11BracedList: true
+AlignConsecutiveDeclarations: 
+  Enabled: true
+  AcrossComments: false
+  AcrossEmptyLines: false
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossComments: false
+  AcrossEmptyLines: false
+  AlignCompound: true
+  PadOperators: false
+AlignConsecutiveBitFields:
+  Enabled: true
+  AcrossComments: false
+  AcrossEmptyLines: false
+IntegerLiteralSeparator:
+  Binary: 4
+  Decimal: 3
+  Hex: 2
+
+AccessModifierOffset: -2
+NamespaceIndentation: All
+EmptyLineAfterAccessModifier: Leave
+EmptyLineBeforeAccessModifier: Always
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+AllowShortFunctionsOnASingleLine: Empty

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Leere/Desktop/CADEX/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\main.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\main.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\main.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\main.cpp.obj"
+}
+]
