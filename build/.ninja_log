@@ -32,3 +32,16 @@
 2395	3058	7164571073122411	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2906121ea7250594
 77	3096	7164571843600792	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
 3098	4072	7164571851092196	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2906121ea7250594
+69	2549	7164575253585155	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
+2550	3185	7164575259850449	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2906121ea7250594
+124	2747	7164575644510575	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
+2748	3541	7164575652190601	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2906121ea7250594
+67	4241	7164616001587231	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj	b3eea80921887e1f
+52	790	7164625994139230	CMakeFiles/CADEX.dir/src/Curves/limiting_coefficients_of_curves.cpp.obj	7b33d6411efb54c9
+23	5808	7164626045291872	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
+109	1361	7164628851340239	CMakeFiles/CADEX.dir/src/Curves/limiting_coefficients_of_curves.cpp.obj	7b33d6411efb54c9
+176	4699	7164628885937992	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj	b3eea80921887e1f
+188	5035	7164628889078149	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/ellipse.cpp.obj	1c6a950a50563d9c
+273	5063	7164628889167972	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/spiral.cpp.obj	3fac9ef67a3f3cfc
+78	6208	7164628901768011	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
+6209	7014	7164628909837971	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2906121ea7250594

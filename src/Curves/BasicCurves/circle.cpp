@@ -1,9 +1,13 @@
-#include "../../../inc/Curves/BasicCurves/circle.hpp"
-
 #include <cmath>
 #include <stdexcept>
 
-#include "../../../inc/Curves/limiting_coefficients_of_curves.hpp"
+#define LIMITING_COEFFICIENTS_MACRO
+#define BASIC_CURVES_MACRO
+#define CIRCLE_MACRO
+#include "../../../inc/headers.hpp"
+#undef CIRCLE_MACRO
+#undef BASIC_CURVES_MACRO
+#undef LIMITING_COEFFICIENTS_MACRO
 
 namespace Curves {
 

@@ -4,7 +4,13 @@
 #include <cmath>
 #include <stdexcept>
 
-#include "../../../inc/Curves/limiting_coefficients_of_curves.hpp"
+#define LIMITING_COEFFICIENTS_MACRO
+#define BASIC_CURVES_MACRO
+#define SPIRAL_MACRO
+#include "../../../inc/headers.hpp"
+#undef SPIRAL_MACRO
+#undef BASIC_CURVES_MACRO
+#undef LIMITING_COEFFICIENTS_MACRO
 
 namespace Curves {
 

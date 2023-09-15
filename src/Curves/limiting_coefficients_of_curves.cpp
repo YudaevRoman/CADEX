@@ -1,5 +1,4 @@
-
-#include "../../inc/Curves/limiting_coefficients_of_curves.hpp"
+#include "../../inc/headers.hpp"
 
 namespace Curves {
 

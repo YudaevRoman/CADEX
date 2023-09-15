@@ -6,7 +6,11 @@
 
 
 #pragma once
-#include "curve.hpp"
+#define BASIC_CURVES_MACRO
+#define CURVE_MACRO
+#include "../../headers.hpp"
+#undef CURVE_MACRO
+#undef BASIC_CURVES_MACRO
 
 namespace Curves {
 

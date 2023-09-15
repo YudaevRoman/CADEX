@@ -1,9 +1,14 @@
-#include "../../../inc/Curves/BasicCurves/ellipse.hpp"
-
 #include <cmath>
 #include <stdexcept>
 
-#include "../../../inc/Curves/limiting_coefficients_of_curves.hpp"
+#define LIMITING_COEFFICIENTS_MACRO
+#define BASIC_CURVES_MACRO
+#define ELLIPSE_MACRO
+#include "../../../inc/headers.hpp"
+#undef ELLIPSE_MACRO
+#undef BASIC_CURVES_MACRO
+#undef LIMITING_COEFFICIENTS_MACRO
+
 
 namespace Curves {
 

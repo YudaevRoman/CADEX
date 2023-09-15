@@ -12,11 +12,11 @@ using namespace BasicCurves;
 
 int main() {
 
-    vector<Curve *> curves;
-    Point3D         point;
+    vector<Spiral *> curves;
+    Point3D          point;
 
     try {
-        curves.push_back(new Spiral(0.1, 999.9));
+        curves.push_back(new Spiral(1, 999.9));
 
         point = curves[0]->Get_Point(M_PI_4);
         cout << "Point: x = " << point.x << ", y = " << point.y
