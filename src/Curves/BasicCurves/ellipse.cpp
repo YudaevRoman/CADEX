@@ -10,12 +10,12 @@ namespace Curves {
     namespace BasicCurves {
 
         Ellipse::Ellipse(double _radius_by_x, double _radius_by_y) {
-            if (_radius_by_x < MIN_RADIUS_BY_X_FOR_ELLIPSE ||
-                _radius_by_x > MAX_RADIUS_BY_X_FOR_ELLIPSE) {
+            if (_radius_by_x <= MIN_RADIUS_BY_X_FOR_ELLIPSE ||
+                _radius_by_x >= MAX_RADIUS_BY_X_FOR_ELLIPSE) {
                 throw std::invalid_argument("Invalid radius by x\n");
             }
-            if (_radius_by_y < MIN_RADIUS_BY_Y_FOR_ELLIPSE ||
-                _radius_by_y > MAX_RADIUS_BY_Y_FOR_ELLIPSE) {
+            if (_radius_by_y <= MIN_RADIUS_BY_Y_FOR_ELLIPSE ||
+                _radius_by_y >= MAX_RADIUS_BY_Y_FOR_ELLIPSE) {
                 throw std::invalid_argument("Invalid radius by y\n");
             }
 

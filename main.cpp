@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-#include "inc/Curves/BasicCurves/ellipse.hpp"
+#include "inc/Curves/BasicCurves/spiral.hpp"
 
 #define _USE_MATH_DEFINES
 
@@ -12,11 +12,11 @@ using namespace BasicCurves;
 
 int main() {
 
-    vector<Ellipse *> curves;
-    Point3D           point;
+    vector<Curve *> curves;
+    Point3D         point;
 
     try {
-        curves.push_back(new Ellipse(1'000, 1'000));
+        curves.push_back(new Spiral(0.1, 999.9));
 
         point = curves[0]->Get_Point(M_PI_4);
         cout << "Point: x = " << point.x << ", y = " << point.y

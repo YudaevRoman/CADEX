@@ -12,6 +12,7 @@ add_executable(
 
         src/Curves/BasicCurves/circle.cpp 
         src/Curves/BasicCurves/ellipse.cpp 
+        src/Curves/BasicCurves/spiral.cpp 
     )
 
 set(EXECUTABLE_OUTPUT_PATH "../bin")

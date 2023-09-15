@@ -11,4 +11,9 @@ namespace Curves {
     extern double MAX_RADIUS_BY_X_FOR_ELLIPSE;
     extern double MIN_RADIUS_BY_Y_FOR_ELLIPSE;
     extern double MAX_RADIUS_BY_Y_FOR_ELLIPSE;
+
+    extern double MIN_RADIUS_FOR_SPIRAL;
+    extern double MAX_RADIUS_FOR_SPIRAL;
+    extern double MIN_STAP_FOR_SPIRAL;
+    extern double MAX_STAP_FOR_SPIRAL;
 }
