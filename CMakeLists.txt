@@ -4,7 +4,14 @@ project(CADEX VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(CADEX main.cpp)
+add_executable(
+    CADEX 
+        main.cpp
+
+        src/Curves/limiting_coefficients_of_curves.cpp
+
+        src/Curves/BasicCurves/circle.cpp 
+    )
 
 set(EXECUTABLE_OUTPUT_PATH "../bin")
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

@@ -4,8 +4,12 @@
 
 #pragma once
 
-struct Point3D {
-    double x;
-    double y;
-    double z;
-};
+namespace Curves {
+
+    struct Point3D {
+      public:
+        double x;
+        double y;
+        double z;
+    };
+}  // namespace Curves
