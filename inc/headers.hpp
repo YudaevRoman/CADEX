@@ -4,12 +4,12 @@
 
 #ifdef POINT3D_MACRO
 #    undef POINT3D_MACRO
-#    include "Curves/point3d.hpp"
+#    include "Curves/Structes/point3d.hpp"
 #endif
 
 #ifdef LIMITING_COEFFICIENTS_MACRO
 #    undef LIMITING_COEFFICIENTS_MACRO
-#    include "Curves/limiting_coefficients_of_curves.hpp"
+#    include "Curves/Structes/limiting_coefficients_of_curves.hpp"
 #endif
 
 #ifdef TEST_TASK_MACRO
