@@ -19,10 +19,10 @@ namespace Curves {
 
           public:
             Spiral(double _radius, double _stap);
-            Point3D Get_Point(double t_parameter) const override;
-            Point3D Get_Derivative(double t_parameter) const override;
-            double  Get_Radius() const;
-            double  Get_Stap() const;
+            Point3D  Get_Point(double t_parameter) const override;
+            Vector3D Get_Derivative(double t_parameter) const override;
+            double   Get_Radius() const;
+            double   Get_Stap() const;
         };
     }  // namespace BasicCurves
 }  // namespace Curves

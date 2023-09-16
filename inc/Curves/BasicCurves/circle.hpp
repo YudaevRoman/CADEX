@@ -18,9 +18,9 @@ namespace Curves {
 
           public:
             Circle(double _radius);
-            Point3D Get_Point(double t_parameter) const override;
-            Point3D Get_Derivative(double t_parameter) const override;
-            double  Get_Radius() const;
+            Point3D  Get_Point(double t_parameter) const override;
+            Vector3D Get_Derivative(double t_parameter) const override;
+            double   Get_Radius() const;
         };
     }  // namespace BasicCurves
 }  // namespace Curves

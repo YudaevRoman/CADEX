@@ -28,9 +28,12 @@ namespace Curves {
                     radius * std::sin(t_parameter), stap * t_parameter};
         }
 
-        Point3D Spiral::Get_Derivative(double t_parameter) const {
-            return {-radius * std::sin(t_parameter),
-                    radius * std::cos(t_parameter), stap};
+        Vector3D Spiral::Get_Derivative(double t_parameter) const {
+            Vector3D vec = Curve::Get_Derivative(t_parameter);
+            vec.two.x    = vec.one.x - radius * std::sin(t_parameter);
+            vec.two.y    = vec.one.y + radius * std::cos(t_parameter);
+            vec.two.z    = vec.one.z + stap;
+            return vec;
         }
 
         double Spiral::Get_Radius() const {

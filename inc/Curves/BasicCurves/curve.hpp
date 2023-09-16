@@ -6,6 +6,7 @@
 
 #pragma once
 #define POINT3D_MACRO
+#define VECTOR3D_MACRO
 #include "../../headers.hpp"
 
 namespace Curves {
@@ -13,8 +14,8 @@ namespace Curves {
 
         class Curve {
           public:
-            virtual Point3D Get_Point(double t_parameter) const      = 0;
-            virtual Point3D Get_Derivative(double t_parameter) const = 0;
+            virtual Point3D  Get_Point(double t_parameter) const = 0;
+            virtual Vector3D Get_Derivative(double t_parameter) const;
         };
     }  // namespace BasicCurves
 }  // namespace Curves

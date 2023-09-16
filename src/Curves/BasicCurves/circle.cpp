@@ -23,9 +23,11 @@ namespace Curves {
                     radius * std::sin(t_parameter), 0};
         }
 
-        Point3D Circle::Get_Derivative(double t_parameter) const {
-            return {-radius * std::sin(t_parameter),
-                    radius * std::cos(t_parameter), 0};
+        Vector3D Circle::Get_Derivative(double t_parameter) const {
+            Vector3D vec = Curve::Get_Derivative(t_parameter);
+            vec.two.x    = vec.one.x - radius * std::sin(t_parameter);
+            vec.two.y    = vec.one.y + radius * std::cos(t_parameter);
+            return vec;
         }
 
         double Circle::Get_Radius() const {

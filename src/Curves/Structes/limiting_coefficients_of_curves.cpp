@@ -1,5 +1,5 @@
 #define LIMITING_COEFFICIENTS_MACRO
-#include "../../inc/headers.hpp"
+#include "../../../inc/headers.hpp"
 
 namespace Curves {
 
