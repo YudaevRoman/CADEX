@@ -53,17 +53,6 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Curves_dll" TYPE FILE FILES "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/headers.hpp")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Curves_dll/inc/Curves/BasicCurves" TYPE FILE FILES
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/BasicCurves/curve.hpp"
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/BasicCurves/circle.hpp"
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/BasicCurves/ellipse.hpp"
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/BasicCurves/spiral.hpp"
-    )
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Curves_dll/inc/Curves/Structes" TYPE FILE FILES
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/Structes/limiting_coefficients_of_curves.hpp"
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/Structes/point3d.hpp"
-    "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/inc/Curves/Structes/vector3d.hpp"
-    )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

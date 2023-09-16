@@ -17,38 +17,44 @@ namespace TestTask {
     void TestTask() {
 
         std::vector<Curve*> curves;
-        Set_Container(curves);
+        Set_Curves(curves);
 
         std::string buffer;
-        Show_ContainerByParameter(buffer, curves);
+        Show_CurvesByParameter(buffer, curves);
 
+        buffer.append("\nSelecting circles from container\n\n");
         std::vector<Circle*> circles;
-        Get_CircleFromContainer(curves, circles);
+        Get_CirclesFromCurves(curves, circles);
 
+        Show_Circles(buffer, circles);
+
+        buffer.append("\nSorting circles\n\n");
         std::sort(circles.begin(), circles.end(),
                   [](Circle* circle1, Circle* circle2) {
                       return circle1->Get_Radius() < circle2->Get_Radius();
                   });
 
+        Show_Circles(buffer, circles);
+
         Show_SumRadius(buffer, circles);
         std::cout << buffer;
     }
 
-    void Set_Container(std::vector<Curve*>& container) {
+    void Set_Curves(std::vector<Curve*>& curves) {
         int containerSize =
             Get_RandomInteger(MIN_CONTAINER_SIZE, MAX_CONTAINER_SIZE);
 
-        container.reserve(containerSize);
+        curves.reserve(containerSize);
         for (int i = 0; i < containerSize; i++) {
             switch (Get_RandomInteger(1, 3)) {
                 case 1: {
-                    container.push_back(new Circle(
+                    curves.push_back(new Circle(
                         Get_RandomReal(MIN_RADIUS_FOR_CIRCLE + ACCURACY,
                                        MAX_RADIUS_FOR_CIRCLE - ACCURACY)));
                     break;
                 }
                 case 2: {
-                    container.push_back(new Ellipse(
+                    curves.push_back(new Ellipse(
                         Get_RandomReal(MIN_RADIUS_BY_X_FOR_ELLIPSE + ACCURACY,
                                        MAX_RADIUS_BY_X_FOR_ELLIPSE - ACCURACY),
                         Get_RandomReal(
@@ -57,7 +63,7 @@ namespace TestTask {
                     break;
                 }
                 case 3: {
-                    container.push_back(new Spiral(
+                    curves.push_back(new Spiral(
                         Get_RandomReal(MIN_RADIUS_FOR_SPIRAL + ACCURACY,
                                        MAX_RADIUS_FOR_SPIRAL - ACCURACY),
                         Get_RandomReal(MIN_STAP_FOR_SPIRAL + ACCURACY,
@@ -78,50 +84,76 @@ namespace TestTask {
         return dist(gen);
     }
 
-    void Show_ContainerByParameter(std::string&         buffer,
-                                   std::vector<Curve*>& container) {
-
+    void Show_CurvesByParameter(std::string&         buffer,
+                                std::vector<Curve*>& curves) {
         Point3D  point;
         Point3D  derivative;
         Circle*  circle  = nullptr;
         Ellipse* ellipse = nullptr;
         Spiral*  spiral  = nullptr;
 
-        for (Curve* elem : container) {
+        buffer.append("\nShowing curves by parameter\n\n");
+
+        for (Curve* curve : curves) {
 
             buffer.append("Type curve: ");
 
-            circle = dynamic_cast<Circle*>(elem);
+            circle = dynamic_cast<Circle*>(curve);
             if (circle) {
                 buffer.append("circle\n");
-                Output_Curves(buffer, elem->Get_Point(t_parameter),
-                              elem->Get_TangentVector(t_parameter));
+
+                buffer.append("Radius: ");
+                buffer.append(std::to_string(circle->Get_Radius()));
+                buffer.push_back('\n');
+
+                Output_PointAndTangetVectorOfCurve(
+                    buffer, curve->Get_Point(t_parameter),
+                    curve->Get_TangentVector(t_parameter));
                 circle = nullptr;
                 continue;
             }
 
-            ellipse = dynamic_cast<Ellipse*>(elem);
+            ellipse = dynamic_cast<Ellipse*>(curve);
             if (ellipse) {
                 buffer.append("ellipse\n");
-                Output_Curves(buffer, elem->Get_Point(t_parameter),
-                              elem->Get_TangentVector(t_parameter));
+
+                buffer.append("Radius by X: ");
+                buffer.append(std::to_string(ellipse->Get_RadiusByX()));
+                buffer.push_back('\n');
+                buffer.append("Radius by Y: ");
+                buffer.append(std::to_string(ellipse->Get_RadiusByY()));
+                buffer.push_back('\n');
+
+                Output_PointAndTangetVectorOfCurve(
+                    buffer, curve->Get_Point(t_parameter),
+                    curve->Get_TangentVector(t_parameter));
                 ellipse = nullptr;
                 continue;
             }
 
-            spiral = dynamic_cast<Spiral*>(elem);
+            spiral = dynamic_cast<Spiral*>(curve);
             if (spiral) {
                 buffer.append("spiral\n");
-                Output_Curves(buffer, elem->Get_Point(t_parameter),
-                              elem->Get_TangentVector(t_parameter));
+
+                buffer.append("Radius: ");
+                buffer.append(std::to_string(spiral->Get_Radius()));
+                buffer.push_back('\n');
+                buffer.append("Stap: ");
+                buffer.append(std::to_string(spiral->Get_Stap()));
+                buffer.push_back('\n');
+
+                Output_PointAndTangetVectorOfCurve(
+                    buffer, curve->Get_Point(t_parameter),
+                    curve->Get_TangentVector(t_parameter));
                 spiral = nullptr;
                 continue;
             }
         }
     }
 
-    void Output_Curves(std::string& buffer, Point3D point,
-                       Vector3D derivative) {
+
+    void Output_PointAndTangetVectorOfCurve(std::string& buffer, Point3D point,
+                                            Vector3D derivative) {
 
         buffer.append("Point: {");
         buffer.append(std::to_string(point.x));
@@ -143,15 +175,16 @@ namespace TestTask {
         buffer.append(std::to_string(derivative.two.y));
         buffer.append(", ");
         buffer.append(std::to_string(derivative.two.z));
-        buffer.append("\n\n");
+        buffer.append("}\n\n");
     }
 
-    void Get_CircleFromContainer(std::vector<Curve*>&  container,
-                                 std::vector<Circle*>& circles) {
-        circles.reserve(container.size());
+
+    void Get_CirclesFromCurves(std::vector<Curve*>&  curves,
+                               std::vector<Circle*>& circles) {
+        circles.reserve(curves.size());
         Circle* circle = nullptr;
-        for (Curve* elem : container) {
-            circle = dynamic_cast<Circle*>(elem);
+        for (Curve* curve : curves) {
+            circle = dynamic_cast<Circle*>(curve);
             if (circle) {
                 circles.push_back(circle);
                 circle = nullptr;
@@ -160,12 +193,24 @@ namespace TestTask {
         }
     }
 
+    void Show_Circles(std::string& buffer, std::vector<Circle*>& circles) {
+        buffer.append("\nShowing circles\n");
+
+        for (Circle* circle : circles) {
+            buffer.append("Radius: ");
+            buffer.append(std::to_string(circle->Get_Radius()));
+            buffer.push_back('\n');
+        }
+        buffer.push_back('\n');
+    }
+
+
     void Show_SumRadius(std::string& buffer, std::vector<Circle*>& circles) {
         double sumRadius = 0;
         for (Circle* circle : circles) {
             sumRadius += circle->Get_Radius();
         }
-        buffer.append("Summary radius: ");
+        buffer.append("\nSummary radius: ");
         buffer.append(std::to_string(sumRadius) + "\n\n");
     }
 

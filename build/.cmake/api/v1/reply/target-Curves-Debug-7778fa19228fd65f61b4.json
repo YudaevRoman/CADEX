@@ -208,11 +208,6 @@
 		},
 		{
 			"backtrace" : 5,
-			"path" : "Curves_dll/headers.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
 			"path" : "Curves_dll/inc/Curves/BasicCurves/curve.hpp",
 			"sourceGroupIndex" : 1
 		},
@@ -244,6 +239,11 @@
 		{
 			"backtrace" : 5,
 			"path" : "Curves_dll/inc/Curves/Structes/vector3d.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "Curves_dll/headers.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

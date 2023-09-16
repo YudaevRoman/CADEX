@@ -28,17 +28,24 @@ namespace TestTask {
 
     extern void TestTask();
 
-    extern void   Set_Container(std::vector<Curve*>& container);
+    extern void Set_Curves(std::vector<Curve*>& curves);
+
     extern double Get_RandomReal(double min, double max);
-    extern int    Get_RandomInteger(int min, int max);
 
-    extern void Show_ContainerByParameter(std::string&         buffer,
-                                          std::vector<Curve*>& container);
-    extern void Output_Curves(std::string& buffer, Point3D point,
-                              Vector3D derivative);
+    extern int Get_RandomInteger(int min, int max);
 
-    extern void Get_CircleFromContainer(std::vector<Curve*>&  container,
-                                        std::vector<Circle*>& circles);
+    extern void Show_CurvesByParameter(std::string&         buffer,
+                                       std::vector<Curve*>& curves);
+
+    extern void Output_PointAndTangetVectorOfCurve(std::string& buffer,
+                                                   Point3D      point,
+                                                   Vector3D     derivative);
+
+    extern void Get_CirclesFromCurves(std::vector<Curve*>&  curves,
+                                      std::vector<Circle*>& circles);
+
+    extern void Show_Circles(std::string&          buffer,
+                             std::vector<Circle*>& circles);
 
     extern void Show_SumRadius(std::string&          buffer,
                                std::vector<Circle*>& circles);

@@ -69,34 +69,6 @@
 				{
 					"from" : "Curves_dll/../Curves_dll/headers.hpp",
 					"to" : "Curves_dll/headers.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/curve.hpp",
-					"to" : "Curves_dll/inc/Curves/BasicCurves/curve.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/circle.hpp",
-					"to" : "Curves_dll/inc/Curves/BasicCurves/circle.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/ellipse.hpp",
-					"to" : "Curves_dll/inc/Curves/BasicCurves/ellipse.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/spiral.hpp",
-					"to" : "Curves_dll/inc/Curves/BasicCurves/spiral.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/Structes/limiting_coefficients_of_curves.hpp",
-					"to" : "Curves_dll/inc/Curves/Structes/limiting_coefficients_of_curves.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/Structes/point3d.hpp",
-					"to" : "Curves_dll/inc/Curves/Structes/point3d.hpp"
-				},
-				{
-					"from" : "Curves_dll/../Curves_dll/inc/Curves/Structes/vector3d.hpp",
-					"to" : "Curves_dll/inc/Curves/Structes/vector3d.hpp"
 				}
 			],
 			"type" : "fileSet"

@@ -37,11 +37,11 @@ namespace Curves {
             return vec;
         }
 
-        double Ellipse::Get_Radius_By_X() const {
+        double Ellipse::Get_RadiusByX() const {
             return radius_by_x;
         }
 
-        double Ellipse::Get_Radius_By_Y() const {
+        double Ellipse::Get_RadiusByY() const {
             return radius_by_y;
         }
 
