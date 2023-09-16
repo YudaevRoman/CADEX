@@ -1,0 +1,110 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libCurves.dll.a"
+			],
+			"targetId" : "Curves::@6890427a1f51a3e7e1df",
+			"targetIndex" : 10,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libCurves.dll"
+			],
+			"targetId" : "Curves::@6890427a1f51a3e7e1df",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"fileSetDirectories" : 
+			[
+				"."
+			],
+			"fileSetName" : "HEADERS",
+			"fileSetTarget" : 
+			{
+				"id" : "Curves::@6890427a1f51a3e7e1df",
+				"index" : 10
+			},
+			"fileSetType" : "HEADERS",
+			"paths" : 
+			[
+				{
+					"from" : "Curves_dll/../Curves_dll/headers.hpp",
+					"to" : "Curves_dll/headers.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/curve.hpp",
+					"to" : "Curves_dll/inc/Curves/BasicCurves/curve.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/circle.hpp",
+					"to" : "Curves_dll/inc/Curves/BasicCurves/circle.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/ellipse.hpp",
+					"to" : "Curves_dll/inc/Curves/BasicCurves/ellipse.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/BasicCurves/spiral.hpp",
+					"to" : "Curves_dll/inc/Curves/BasicCurves/spiral.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/Structes/limiting_coefficients_of_curves.hpp",
+					"to" : "Curves_dll/inc/Curves/Structes/limiting_coefficients_of_curves.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/Structes/point3d.hpp",
+					"to" : "Curves_dll/inc/Curves/Structes/point3d.hpp"
+				},
+				{
+					"from" : "Curves_dll/../Curves_dll/inc/Curves/Structes/vector3d.hpp",
+					"to" : "Curves_dll/inc/Curves/Structes/vector3d.hpp"
+				}
+			],
+			"type" : "fileSet"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

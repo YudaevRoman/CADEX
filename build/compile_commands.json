@@ -1,44 +1,44 @@
 [
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\main.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\main.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\main.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\main.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DCurves_EXPORTS -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\curve.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\curve.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\curve.cpp",
+  "output": "CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\curve.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DCurves_EXPORTS -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\circle.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\circle.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\circle.cpp",
+  "output": "CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\circle.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\curve.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\curve.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\curve.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\curve.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DCurves_EXPORTS -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\ellipse.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\ellipse.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\ellipse.cpp",
+  "output": "CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\ellipse.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\circle.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\circle.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\circle.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\circle.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DCurves_EXPORTS -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\spiral.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\spiral.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\BasicCurves\\spiral.cpp",
+  "output": "CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\BasicCurves\\spiral.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\ellipse.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\ellipse.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\ellipse.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\ellipse.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DCurves_EXPORTS -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Curves_dll\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp",
+  "output": "CMakeFiles\\Curves.dir\\Curves_dll\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\spiral.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\spiral.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\spiral.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\spiral.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\CADEX.dir\\Apps\\main.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\main.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\main.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\Apps\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\TestTask\\test_task.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\TestTask\\test_task.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\TestTask\\test_task.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\TestTask\\test_task.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX -g -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\test_task.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\test_task.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\test_task.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\test_task.cpp.obj"
 }
 ]

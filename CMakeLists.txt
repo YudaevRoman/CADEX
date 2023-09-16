@@ -4,19 +4,28 @@ project(CADEX VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
+#SHARED 
+add_library(Curves SHARED)
+target_include_directories(Curves PRIVATE "${PROJECT_SOURCE_DIR}")
+
+add_subdirectory("Curves_dll")
+
 add_executable(
-    CADEX 
-        main.cpp
+    CADEX
+        Apps/main.cpp
+        Apps/src/TestTask/test_task.cpp
+)
+target_link_libraries(CADEX PRIVATE Curves)
 
-        src/Curves/Structes/limiting_coefficients_of_curves.cpp
+install(TARGETS Curves FILE_SET HEADERS)
 
-        src/Curves/BasicCurves/curve.cpp 
-        src/Curves/BasicCurves/circle.cpp 
-        src/Curves/BasicCurves/ellipse.cpp 
-        src/Curves/BasicCurves/spiral.cpp 
-
-        src/TestTask/test_task.cpp
-    )
+add_custom_command(
+    TARGET Curves POST_BUILD 
+    COMMAND 
+    "${CMAKE_COMMAND}" -E copy 
+        "$<TARGET_FILE:Curves>"
+        "../bin/$<TARGET_FILE_NAME:Curves>"
+)
 
 set(EXECUTABLE_OUTPUT_PATH "../bin")
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

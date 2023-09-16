@@ -1,16 +1,11 @@
 # ninja log v5
-187	9544	7165455784694098	CMakeFiles/CADEX.dir/src/TestTask/test_task.cpp.obj	7441adbd540dc648
-82	7474	7165455764174145	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
-9544	10527	7165455794384086	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	c3d02940ee1022c7
-102	5169	7165455739921970	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj	b3eea80921887e1f
-59	359	7165447211994727	CMakeFiles/CADEX.dir/src/Curves/Structes/limiting_coefficients_of_curves.cpp.obj	5b9239861094cbb7
-100	1637	7165381459053769	CMakeFiles/CADEX.dir/src/Curves/limiting_coefficients_of_curves.cpp.obj	7b33d6411efb54c9
-120	5439	7165455742002014	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/ellipse.cpp.obj	1c6a950a50563d9c
-179	5303	7165455741542007	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/spiral.cpp.obj	3fac9ef67a3f3cfc
-85	1533	7165459373716213	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/curve.cpp.obj	4d2a277cfb862b83
-107	5239	7165459412096206	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/ellipse.cpp.obj	1c6a950a50563d9c
-120	5426	7165459413716462	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/spiral.cpp.obj	3fac9ef67a3f3cfc
-96	5596	7165459415176250	CMakeFiles/CADEX.dir/src/Curves/BasicCurves/circle.cpp.obj	b3eea80921887e1f
-70	7227	7165459432656220	CMakeFiles/CADEX.dir/main.cpp.obj	e0b81208879d098b
-144	8610	7165459446436191	CMakeFiles/CADEX.dir/src/TestTask/test_task.cpp.obj	7441adbd540dc648
-8610	9721	7165459457351497	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	8eefd6744e1722d2
+25	1452	7165745970911756	CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/curve.cpp.obj	19b835b8ded79bee
+7974	12708	7165746065174921	libCurves.dll.a	7997de5404b1720
+194	1840	7165745973258523	CMakeFiles/Curves.dir/Curves_dll/src/Curves/Structes/limiting_coefficients_of_curves.cpp.obj	6a74d35c11bf1d22
+89	7973	7165746036144896	CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/circle.cpp.obj	c2f4a3cc59739aed
+101	7372	7165746031114916	CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/ellipse.cpp.obj	b2b55112c684f2a8
+113	7908	7165746033614942	CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/spiral.cpp.obj	991991cf60552eab
+264	10604	7165746063085218	CMakeFiles/CADEX.dir/Apps/main.cpp.obj	9fed9156279f103c
+7974	12708	7165746065174921	libCurves.dll	7997de5404b1720
+1456	15524	7165746112166474	CMakeFiles/CADEX.dir/Apps/src/TestTask/test_task.cpp.obj	3e6931bf4c35f170
+15524	17040	7165746127686132	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	a9d5d46c666cc38f
