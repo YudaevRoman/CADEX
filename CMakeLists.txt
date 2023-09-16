@@ -10,6 +10,7 @@ target_include_directories(Curves PRIVATE "${PROJECT_SOURCE_DIR}")
 
 add_subdirectory("Curves_dll")
 
+find_package(OpenMP)
 add_executable(
     CADEX
         Apps/main.cpp
@@ -21,6 +22,7 @@ add_executable(
         Apps/src/TestTask/ByBasicCurves/without_omp.cpp
 )
 target_link_libraries(CADEX PRIVATE Curves)
+target_link_libraries(CADEX PRIVATE OpenMP::OpenMP_CXX)
 
 install(TARGETS Curves FILE_SET HEADERS)
 add_custom_command(

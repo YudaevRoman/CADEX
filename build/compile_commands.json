@@ -31,31 +31,31 @@
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -o CMakeFiles\\CADEX.dir\\Apps\\main.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -fopenmp -o CMakeFiles\\CADEX.dir\\Apps\\main.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\main.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\main.cpp",
   "output": "CMakeFiles\\CADEX.dir\\Apps\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\General\\constans.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\General\\constans.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -fopenmp -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\General\\constans.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\General\\constans.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\General\\constans.cpp",
   "output": "CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\General\\constans.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\General\\functions.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\General\\functions.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -fopenmp -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\General\\functions.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\General\\functions.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\General\\functions.cpp",
   "output": "CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\General\\functions.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\ByBasicCurves\\with_omp.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\ByBasicCurves\\with_omp.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -fopenmp -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\ByBasicCurves\\with_omp.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\ByBasicCurves\\with_omp.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\ByBasicCurves\\with_omp.cpp",
   "output": "CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\ByBasicCurves\\with_omp.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\ByBasicCurves\\without_omp.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\ByBasicCurves\\without_omp.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -IC:/Users/Leere/Desktop/CADEX/Curves_dll -g -fopenmp -o CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\ByBasicCurves\\without_omp.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\ByBasicCurves\\without_omp.cpp",
   "file": "C:\\Users\\Leere\\Desktop\\CADEX\\Apps\\src\\TestTask\\ByBasicCurves\\without_omp.cpp",
   "output": "CMakeFiles\\CADEX.dir\\Apps\\src\\TestTask\\ByBasicCurves\\without_omp.cpp.obj"
 }

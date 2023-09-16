@@ -8,12 +8,25 @@ namespace TestTask {
 
         void Show_SumRadius_WithoutOMP(std::string&          buffer,
                                        std::vector<Circle*>& circles) {
+
+            int    i;
+            double time;
             double sumRadius = 0;
-            for (Circle* circle : circles) {
-                sumRadius += circle->Get_Radius();
+
+            time_point start = high_resolution_clock::now();
+            for (i = 0; i < circles.size(); i++) {
+                sumRadius += circles[i]->Get_Radius();
             }
-            buffer.append("\nSummary radius: ");
-            buffer.append(std::to_string(sumRadius) + "\n\n");
+            time_point stop = high_resolution_clock::now();
+
+            buffer.append("\nContainer size: ");
+            buffer.append(std::to_string(circles.size()));
+            buffer.append("\nSummary radius without OMP: ");
+            buffer.append(std::to_string(sumRadius));
+
+            time = duration_cast<microseconds>(stop - start).count();
+            buffer.append("\nExecution time: ");
+            buffer.append(std::to_string(time) + " microseconds\n\n");
         }
 
         void TestTask_WithoutOMP() {

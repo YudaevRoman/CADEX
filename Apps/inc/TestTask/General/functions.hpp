@@ -4,6 +4,7 @@
 
 #pragma once
 #include <algorithm>
+#include <chrono>
 #include <cmath>
 #include <iostream>
 #include <random>
@@ -15,6 +16,8 @@
 #define TEST_TASK_GENERAL_CONSTANS
 #include "../../../headers.hpp"
 
+using namespace std;
+using namespace chrono;
 using namespace Curves;
 using namespace BasicCurves;
 

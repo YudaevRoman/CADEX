@@ -105,6 +105,12 @@
         "thread": "cpp",
         "typeindex": "cpp",
         "valarray": "cpp",
-        "fail": "cpp"
+        "fail": "cpp",
+        "locale": "cpp",
+        "xlocbuf": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xloctime": "cpp",
+        "xtree": "cpp"
     }
 }

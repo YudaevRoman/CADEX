@@ -3,6 +3,8 @@
 */
 
 #pragma once
+#include <omp.h>
+
 #define TEST_TASK_GENERAL
 #include "../../../headers.hpp"
 

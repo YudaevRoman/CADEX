@@ -31,6 +31,6 @@
 #    endif
 #    ifdef TEST_TASK_WITHOUT_OMP
 #        undef TEST_TASK_WITHOUT_OMP
-#        include "inc/TestTask/ByBasicCurves/with_omp.hpp"
+#        include "inc/TestTask/ByBasicCurves/without_omp.hpp"
 #    endif
 #endif

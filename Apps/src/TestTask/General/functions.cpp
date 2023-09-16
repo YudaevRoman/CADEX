@@ -7,17 +7,17 @@ namespace TestTask {
 
         double Get_RandomReal(double min, double max) {
             std::uniform_real_distribution dist(min, max);
-            return dist(gen);
+            return dist(Get_Generator());
         }
 
         int Get_RandomInteger(int min, int max) {
             std::uniform_int_distribution dist(min, max);
-            return dist(gen);
+            return dist(Get_Generator());
         }
 
         void Set_Curves(std::vector<Curve*>& curves) {
-            int containerSize =
-                Get_RandomInteger(MIN_CONTAINER_SIZE, MAX_CONTAINER_SIZE);
+            int containerSize = Get_RandomInteger(Get_MinContainerSize(),
+                                                  Get_MaxContainerSize());
 
             curves.reserve(containerSize);
             for (int i = 0; i < containerSize; i++) {
@@ -80,6 +80,7 @@ namespace TestTask {
 
         void Show_CurvesByParameter(std::string&         buffer,
                                     std::vector<Curve*>& curves) {
+            int      index = 0;
             Point3D  point;
             Point3D  derivative;
             Circle*  circle  = nullptr;
@@ -90,7 +91,9 @@ namespace TestTask {
 
             for (Curve* curve : curves) {
 
-                buffer.append("Type curve: ");
+                index++;
+                buffer.append(std::to_string(index));
+                buffer.append(" curve\nType: ");
 
                 circle = dynamic_cast<Circle*>(curve);
                 if (circle) {
@@ -161,10 +164,14 @@ namespace TestTask {
         }
 
         void Show_Circles(std::string& buffer, std::vector<Circle*>& circles) {
+            int index = 0;
             buffer.append("\nShowing circles\n");
 
             for (Circle* circle : circles) {
-                buffer.append("Radius: ");
+
+                index++;
+                buffer.append(std::to_string(index));
+                buffer.append(" curve\nRadius: ");
                 buffer.append(std::to_string(circle->Get_Radius()));
                 buffer.push_back('\n');
             }
