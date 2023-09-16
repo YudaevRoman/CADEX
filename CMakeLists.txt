@@ -8,8 +8,9 @@ add_executable(
     CADEX 
         main.cpp
 
-        src/Curves/limiting_coefficients_of_curves.cpp
+        src/Curves/Structes/limiting_coefficients_of_curves.cpp
 
+        src/Curves/BasicCurves/curve.cpp 
         src/Curves/BasicCurves/circle.cpp 
         src/Curves/BasicCurves/ellipse.cpp 
         src/Curves/BasicCurves/spiral.cpp 

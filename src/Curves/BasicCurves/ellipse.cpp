@@ -30,8 +30,8 @@ namespace Curves {
                     radius_by_y * std::sin(t_parameter), 0};
         }
 
-        Vector3D Ellipse::Get_Derivative(double t_parameter) const {
-            Vector3D vec = Curve::Get_Derivative(t_parameter);
+        Vector3D Ellipse::Get_TangentVector(double t_parameter) const {
+            Vector3D vec = Curve::Get_TangentVector(t_parameter);
             vec.two.x    = vec.one.x - radius_by_x * std::sin(t_parameter);
             vec.two.y    = vec.one.y + radius_by_y * std::cos(t_parameter);
             return vec;

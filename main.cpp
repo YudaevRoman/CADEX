@@ -12,7 +12,7 @@ using namespace BasicCurves;
 
 int main() {
 
-    Test_Task();
+    TestTask::TestTask();
 
     system("pause");
 

@@ -6,7 +6,7 @@
 namespace Curves {
 
     namespace BasicCurves {
-        Vector3D Curve::Get_Derivative(double t_parameter) const {
+        Vector3D Curve::Get_TangentVector(double t_parameter) const {
             return {
                 Get_Point(t_parameter), {0, 0, 0}
             };

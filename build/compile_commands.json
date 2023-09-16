@@ -7,9 +7,15 @@
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\limiting_coefficients_of_curves.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\limiting_coefficients_of_curves.cpp",
-  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\limiting_coefficients_of_curves.cpp",
-  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\limiting_coefficients_of_curves.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\Structes\\limiting_coefficients_of_curves.cpp.obj"
+},
+{
+  "directory": "C:/Users/Leere/Desktop/CADEX/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -o CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\curve.cpp.obj -c C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\curve.cpp",
+  "file": "C:\\Users\\Leere\\Desktop\\CADEX\\src\\Curves\\BasicCurves\\curve.cpp",
+  "output": "CMakeFiles\\CADEX.dir\\src\\Curves\\BasicCurves\\curve.cpp.obj"
 },
 {
   "directory": "C:/Users/Leere/Desktop/CADEX/build",
