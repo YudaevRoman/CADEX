@@ -7,6 +7,11 @@
 #    include "Curves/Structes/point3d.hpp"
 #endif
 
+#ifdef VECTOR3D_MACRO
+#    undef VECTOR3D_MACRO
+#    include "Curves/Structes/vector3d.hpp"
+#endif
+
 #ifdef LIMITING_COEFFICIENTS_MACRO
 #    undef LIMITING_COEFFICIENTS_MACRO
 #    include "Curves/Structes/limiting_coefficients_of_curves.hpp"
