@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+Apps_BINARY_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/build/Apps
+
+//Value Computed by CMake
+Apps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Apps_SOURCE_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/Apps
+
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
@@ -304,6 +313,15 @@ CTEST_SUBMIT_RETRY_COUNT:STRING=3
 
 //How long to wait between timed-out CTest submissions.
 CTEST_SUBMIT_RETRY_DELAY:STRING=5
+
+//Value Computed by CMake
+Curves_dll_BINARY_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/build/Curves_dll
+
+//Value Computed by CMake
+Curves_dll_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Curves_dll_SOURCE_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/Curves_dll
 
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500

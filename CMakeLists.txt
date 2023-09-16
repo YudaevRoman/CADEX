@@ -13,12 +13,16 @@ add_subdirectory("Curves_dll")
 add_executable(
     CADEX
         Apps/main.cpp
-        Apps/src/TestTask/test_task.cpp
+        
+        Apps/src/TestTask/General/constans.cpp
+        Apps/src/TestTask/General/functions.cpp
+        
+        Apps/src/TestTask/ByBasicCurves/with_omp.cpp
+        Apps/src/TestTask/ByBasicCurves/without_omp.cpp
 )
 target_link_libraries(CADEX PRIVATE Curves)
 
 install(TARGETS Curves FILE_SET HEADERS)
-
 add_custom_command(
     TARGET Curves POST_BUILD 
     COMMAND 

@@ -52,7 +52,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Curves_dll" TYPE FILE FILES "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/headers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "C:/Users/Leere/Desktop/CADEX/Curves_dll/../Curves_dll/headers.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

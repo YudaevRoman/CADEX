@@ -221,7 +221,7 @@ build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/curve.cpp.obj: CXX
   DEFINES = -DCurves_EXPORTS
   DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\curve.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\Curves.dir
   OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
 
@@ -229,7 +229,7 @@ build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/circle.cpp.obj: CX
   DEFINES = -DCurves_EXPORTS
   DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\circle.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\Curves.dir
   OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
 
@@ -237,7 +237,7 @@ build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/ellipse.cpp.obj: C
   DEFINES = -DCurves_EXPORTS
   DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\ellipse.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\Curves.dir
   OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
 
@@ -245,7 +245,7 @@ build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/spiral.cpp.obj: CX
   DEFINES = -DCurves_EXPORTS
   DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\spiral.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\Curves.dir
   OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
 
@@ -253,7 +253,7 @@ build CMakeFiles/Curves.dir/Curves_dll/src/Curves/Structes/limiting_coefficients
   DEFINES = -DCurves_EXPORTS
   DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\Structes\limiting_coefficients_of_curves.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\Curves.dir
   OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\Structes
 
@@ -288,16 +288,37 @@ build cmake_object_order_depends_target_CADEX: phony || cmake_object_order_depen
 build CMakeFiles/CADEX.dir/Apps/main.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/main.cpp || cmake_object_order_depends_target_CADEX
   DEP_FILE = CMakeFiles\CADEX.dir\Apps\main.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\CADEX.dir
   OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps
 
-build CMakeFiles/CADEX.dir/Apps/src/TestTask/test_task.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/test_task.cpp || cmake_object_order_depends_target_CADEX
-  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\test_task.cpp.obj.d
+build CMakeFiles/CADEX.dir/Apps/src/TestTask/General/constans.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/General/constans.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\General\constans.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
   OBJECT_DIR = CMakeFiles\CADEX.dir
-  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\General
+
+build CMakeFiles/CADEX.dir/Apps/src/TestTask/General/functions.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/General/functions.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\General\functions.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  OBJECT_DIR = CMakeFiles\CADEX.dir
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\General
+
+build CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/with_omp.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/ByBasicCurves/with_omp.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves\with_omp.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  OBJECT_DIR = CMakeFiles\CADEX.dir
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves
+
+build CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/without_omp.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/ByBasicCurves/without_omp.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves\without_omp.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  OBJECT_DIR = CMakeFiles\CADEX.dir
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves
 
 
 # =============================================================================
@@ -307,7 +328,7 @@ build CMakeFiles/CADEX.dir/Apps/src/TestTask/test_task.cpp.obj: CXX_COMPILER__CA
 #############################################
 # Link the executable C:\Users\Leere\Desktop\CADEX\bin\CADEX.exe
 
-build C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe: CXX_EXECUTABLE_LINKER__CADEX_Debug CMakeFiles/CADEX.dir/Apps/main.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/test_task.cpp.obj | libCurves.dll.a || libCurves.dll
+build C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe: CXX_EXECUTABLE_LINKER__CADEX_Debug CMakeFiles/CADEX.dir/Apps/main.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/General/constans.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/General/functions.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/with_omp.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/without_omp.cpp.obj | libCurves.dll.a || libCurves.dll
   FLAGS = -g
   LINK_LIBRARIES = libCurves.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CADEX.dir

@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.5.0)
+project(Curves_dll VERSION 0.1.0 LANGUAGES C CXX)
 
 cmake_policy(SET CMP0076 NEW)
 

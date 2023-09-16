@@ -40,7 +40,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
@@ -55,7 +55,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 4,
+				"line" : 6,
 				"parent" : 4
 			}
 		]
@@ -80,6 +80,10 @@
 				{
 					"backtrace" : 3,
 					"path" : "C:/Users/Leere/Desktop/CADEX"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Leere/Desktop/CADEX/Curves_dll"
 				}
 			],
 			"language" : "CXX",
@@ -98,7 +102,7 @@
 		{
 			"baseDirectories" : 
 			[
-				"C:/Users/Leere/Desktop/CADEX"
+				"C:/Users/Leere/Desktop/CADEX/Curves_dll"
 			],
 			"name" : "HEADERS",
 			"type" : "HEADERS",
