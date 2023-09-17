@@ -52,7 +52,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "C:/Users/Leere/Desktop/CADEX/curves/headers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/inc" TYPE FILE FILES
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/curve.hpp"
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/circle.hpp"
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/ellipse.hpp"
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/spiral.hpp"
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/limitations.hpp"
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/point3d.hpp"
+    "C:/Users/Leere/Desktop/CADEX/curves/inc/vector3d.hpp"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

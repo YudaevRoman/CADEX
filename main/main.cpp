@@ -1,11 +1,11 @@
 #include <iostream>
 
-#define EXAMPLE_BY_CURVES_NATURAL
-#define EXAMPLE_NOT_OMP
-#define EXAMPLE_OMP
-#include "headers.hpp"
+#include "inc/constants.hpp"
+#include "inc/functions.hpp"
+#include "inc/functions_not_omp.hpp"
+#include "inc/functions_omp.hpp"
 
-using namespace ExampleByCurves::Natural;
+using namespace Curves;
 
 int main() {
 

@@ -13,11 +13,10 @@ add_executable(
     CADEX
         main/main.cpp
         
-        main/example_by_curves/src/general/constans.cpp
-        main/example_by_curves/src/natural/functions.cpp
-        
-        main/example_by_curves/src/natural/functions_omp.cpp
-        main/example_by_curves/src/natural/functions_not_omp.cpp
+        main/src/constans.cpp
+        main/src/functions.cpp
+        main/src/functions_omp.cpp
+        main/src/functions_not_omp.cpp
 )
 target_link_libraries(CADEX PRIVATE Curves)
 target_link_libraries(CADEX PRIVATE OpenMP::OpenMP_CXX)

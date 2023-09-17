@@ -6,22 +6,20 @@ cmake_policy(SET CMP0076 NEW)
 target_sources(
     Curves
     PRIVATE 
-        src/natural/curve.cpp
-        src/natural/circle.cpp
-        src/natural/ellipse.cpp
-        src/natural/spiral.cpp
-        src/general/limitations.cpp
-
-        inc/natural/curve.hpp
-        inc/natural/circle.hpp
-        inc/natural/ellipse.hpp
-        inc/natural/spiral.hpp
-        inc/general/limitations.hpp
-        inc/general/point3d.hpp
-        inc/general/vector3d.hpp
+        src/curve.cpp
+        src/circle.cpp
+        src/ellipse.cpp
+        src/spiral.cpp
+        src/limitations.cpp
         
     PUBLIC FILE_SET HEADERS 
     BASE_DIRS ${PROJECT_SOURCE_DIR}
     FILES 
-        headers.hpp
+        inc/curve.hpp
+        inc/circle.hpp
+        inc/ellipse.hpp
+        inc/spiral.hpp
+        inc/limitations.hpp
+        inc/point3d.hpp
+        inc/vector3d.hpp
 )
