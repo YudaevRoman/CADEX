@@ -1,14 +1,14 @@
 # ninja log v5
-90	1624	7166696859253693	CMakeFiles/Curves.dir/curves/src/limitations.cpp.obj	e506faa36532016f
-26	7644	7166696917819434	CMakeFiles/Curves.dir/curves/src/curve.cpp.obj	4852017c6b7bd71b
-36	8777	7166696930465058	CMakeFiles/Curves.dir/curves/src/circle.cpp.obj	6e5cadc7e7eb18ea
-69	9790	7166696941506276	CMakeFiles/Curves.dir/curves/src/spiral.cpp.obj	6dfc6c66a13d300b
-51	9891	7166696941206347	CMakeFiles/Curves.dir/curves/src/ellipse.cpp.obj	7413ba3e9c7594e3
-1627	14728	7166696988206329	CMakeFiles/CADEX.dir/main/src/constans.cpp.obj	babe713021cbc09f
-104	14767	7166696990366296	CMakeFiles/CADEX.dir/main/main.cpp.obj	82335d08607c5340
-9891	17445	7166696980056269	libCurves.dll	16b9c679feac3833
-9891	17445	7166696980056269	libCurves.dll.a	16b9c679feac3833
-8778	19577	7166697040571441	CMakeFiles/CADEX.dir/main/src/functions_omp.cpp.obj	21e63868e0e8b20c
-9791	20473	7166697048941411	CMakeFiles/CADEX.dir/main/src/functions_not_omp.cpp.obj	ab8bddb670de78e8
-7649	21982	7166697065162628	CMakeFiles/CADEX.dir/main/src/functions.cpp.obj	f814600a2a6942f4
-21984	23320	7166697076914730	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2f11c43aa4821d25
+112	2120	7166705253358799	CMakeFiles/Curves.dir/curves/src/limitations.cpp.obj	e506faa36532016f
+22	5726	7166705290630942	CMakeFiles/Curves.dir/curves/src/curve.cpp.obj	4852017c6b7bd71b
+46	7552	7166705308740864	CMakeFiles/Curves.dir/curves/src/ellipse.cpp.obj	7413ba3e9c7594e3
+35	7708	7166705310430929	CMakeFiles/Curves.dir/curves/src/circle.cpp.obj	6e5cadc7e7eb18ea
+79	8575	7166705318430880	CMakeFiles/Curves.dir/curves/src/spiral.cpp.obj	6dfc6c66a13d300b
+2124	13631	7166705370440924	CMakeFiles/CADEX.dir/main/src/constans.cpp.obj	babe713021cbc09f
+165	14699	7166705378150893	CMakeFiles/CADEX.dir/main/main.cpp.obj	82335d08607c5340
+8576	15942	7166705362440893	libCurves.dll	16b9c679feac3833
+8576	15942	7166705362440893	libCurves.dll.a	16b9c679feac3833
+7709	18031	7166705415819463	CMakeFiles/CADEX.dir/main/src/functions_not_omp.cpp.obj	ab8bddb670de78e8
+7553	18050	7166705415829481	CMakeFiles/CADEX.dir/main/src/functions_omp.cpp.obj	21e63868e0e8b20c
+5732	20781	7166705443539745	CMakeFiles/CADEX.dir/main/src/functions.cpp.obj	f814600a2a6942f4
+20782	22435	7166705459780474	C:/Users/Leere/Desktop/CADEX/bin/CADEX.exe	2f11c43aa4821d25

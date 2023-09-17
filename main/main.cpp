@@ -35,6 +35,7 @@ int main() {
         Show_SumRadius_NotOMP(buffer, circles);
         Show_SumRadius_OMP(buffer, circles);
         std::cout << buffer;
+        buffer.clear();
 
         std::cout << "If you want to finish, press 'n'\n";
         std::cin >> key;
