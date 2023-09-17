@@ -306,6 +306,15 @@ CTEST_SUBMIT_RETRY_COUNT:STRING=3
 CTEST_SUBMIT_RETRY_DELAY:STRING=5
 
 //Value Computed by CMake
+Curves_BINARY_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/build/curves
+
+//Value Computed by CMake
+Curves_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Curves_SOURCE_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/curves
+
+//Value Computed by CMake
 Curves_dll_BINARY_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/build/Curves_dll
 
 //Value Computed by CMake
@@ -349,6 +358,15 @@ OpenMP_mingwthrd_LIBRARY:FILEPATH=C:/msys64/mingw64/lib/libmingwthrd.a
 
 //Name of the computer/site where compile is being run
 SITE:STRING=Leere
+
+//Value Computed by CMake
+curves_BINARY_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/build/curves
+
+//Value Computed by CMake
+curves_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+curves_SOURCE_DIR:STATIC=C:/Users/Leere/Desktop/CADEX/curves
 
 
 ########################

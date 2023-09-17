@@ -6,20 +6,18 @@ enable_testing()
 
 #SHARED 
 add_library(Curves SHARED)
-target_include_directories(Curves PRIVATE "${PROJECT_SOURCE_DIR}")
-
-add_subdirectory("Curves_dll")
+add_subdirectory("curves")
 
 find_package(OpenMP)
 add_executable(
     CADEX
-        Apps/main.cpp
+        main/main.cpp
         
-        Apps/src/TestTask/General/constans.cpp
-        Apps/src/TestTask/General/functions.cpp
+        main/example_by_curves/src/general/constans.cpp
+        main/example_by_curves/src/natural/functions.cpp
         
-        Apps/src/TestTask/ByBasicCurves/with_omp.cpp
-        Apps/src/TestTask/ByBasicCurves/without_omp.cpp
+        main/example_by_curves/src/natural/functions_omp.cpp
+        main/example_by_curves/src/natural/functions_not_omp.cpp
 )
 target_link_libraries(CADEX PRIVATE Curves)
 target_link_libraries(CADEX PRIVATE OpenMP::OpenMP_CXX)

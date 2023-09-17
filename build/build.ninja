@@ -217,45 +217,45 @@ build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
 
 build cmake_object_order_depends_target_Curves: phony || CMakeFiles/Curves.dir
 
-build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/curve.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Curves_dll/src/Curves/BasicCurves/curve.cpp || cmake_object_order_depends_target_Curves
+build CMakeFiles/Curves.dir/curves/src/natural/curve.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/curves/src/natural/curve.cpp || cmake_object_order_depends_target_Curves
   DEFINES = -DCurves_EXPORTS
-  DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\curve.cpp.obj.d
+  DEP_FILE = CMakeFiles\Curves.dir\curves\src\natural\curve.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\Curves.dir
-  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
+  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\curves\src\natural
 
-build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/circle.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Curves_dll/src/Curves/BasicCurves/circle.cpp || cmake_object_order_depends_target_Curves
+build CMakeFiles/Curves.dir/curves/src/natural/circle.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/curves/src/natural/circle.cpp || cmake_object_order_depends_target_Curves
   DEFINES = -DCurves_EXPORTS
-  DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\circle.cpp.obj.d
+  DEP_FILE = CMakeFiles\Curves.dir\curves\src\natural\circle.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\Curves.dir
-  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
+  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\curves\src\natural
 
-build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/ellipse.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Curves_dll/src/Curves/BasicCurves/ellipse.cpp || cmake_object_order_depends_target_Curves
+build CMakeFiles/Curves.dir/curves/src/natural/ellipse.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/curves/src/natural/ellipse.cpp || cmake_object_order_depends_target_Curves
   DEFINES = -DCurves_EXPORTS
-  DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\ellipse.cpp.obj.d
+  DEP_FILE = CMakeFiles\Curves.dir\curves\src\natural\ellipse.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\Curves.dir
-  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
+  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\curves\src\natural
 
-build CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/spiral.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Curves_dll/src/Curves/BasicCurves/spiral.cpp || cmake_object_order_depends_target_Curves
+build CMakeFiles/Curves.dir/curves/src/natural/spiral.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/curves/src/natural/spiral.cpp || cmake_object_order_depends_target_Curves
   DEFINES = -DCurves_EXPORTS
-  DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves\spiral.cpp.obj.d
+  DEP_FILE = CMakeFiles\Curves.dir\curves\src\natural\spiral.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\Curves.dir
-  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\BasicCurves
+  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\curves\src\natural
 
-build CMakeFiles/Curves.dir/Curves_dll/src/Curves/Structes/limiting_coefficients_of_curves.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Curves_dll/src/Curves/Structes/limiting_coefficients_of_curves.cpp || cmake_object_order_depends_target_Curves
+build CMakeFiles/Curves.dir/curves/src/general/limitations.cpp.obj: CXX_COMPILER__Curves_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/curves/src/general/limitations.cpp || cmake_object_order_depends_target_Curves
   DEFINES = -DCurves_EXPORTS
-  DEP_FILE = CMakeFiles\Curves.dir\Curves_dll\src\Curves\Structes\limiting_coefficients_of_curves.cpp.obj.d
+  DEP_FILE = CMakeFiles\Curves.dir\curves\src\general\limitations.cpp.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\Curves.dir
-  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\Curves_dll\src\Curves\Structes
+  OBJECT_FILE_DIR = CMakeFiles\Curves.dir\curves\src\general
 
 
 # =============================================================================
@@ -265,7 +265,7 @@ build CMakeFiles/Curves.dir/Curves_dll/src/Curves/Structes/limiting_coefficients
 #############################################
 # Link the shared library libCurves.dll
 
-build libCurves.dll libCurves.dll.a: CXX_SHARED_LIBRARY_LINKER__Curves_Debug CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/curve.cpp.obj CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/circle.cpp.obj CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/ellipse.cpp.obj CMakeFiles/Curves.dir/Curves_dll/src/Curves/BasicCurves/spiral.cpp.obj CMakeFiles/Curves.dir/Curves_dll/src/Curves/Structes/limiting_coefficients_of_curves.cpp.obj
+build libCurves.dll libCurves.dll.a: CXX_SHARED_LIBRARY_LINKER__Curves_Debug CMakeFiles/Curves.dir/curves/src/natural/curve.cpp.obj CMakeFiles/Curves.dir/curves/src/natural/circle.cpp.obj CMakeFiles/Curves.dir/curves/src/natural/ellipse.cpp.obj CMakeFiles/Curves.dir/curves/src/natural/spiral.cpp.obj CMakeFiles/Curves.dir/curves/src/general/limitations.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Curves.dir
@@ -285,40 +285,40 @@ build libCurves.dll libCurves.dll.a: CXX_SHARED_LIBRARY_LINKER__Curves_Debug CMa
 
 build cmake_object_order_depends_target_CADEX: phony || cmake_object_order_depends_target_Curves
 
-build CMakeFiles/CADEX.dir/Apps/main.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/main.cpp || cmake_object_order_depends_target_CADEX
-  DEP_FILE = CMakeFiles\CADEX.dir\Apps\main.cpp.obj.d
+build CMakeFiles/CADEX.dir/main/main.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/main/main.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\main\main.cpp.obj.d
   FLAGS = -g -fopenmp
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\CADEX.dir
-  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\main
 
-build CMakeFiles/CADEX.dir/Apps/src/TestTask/General/constans.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/General/constans.cpp || cmake_object_order_depends_target_CADEX
-  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\General\constans.cpp.obj.d
+build CMakeFiles/CADEX.dir/main/example_by_curves/src/general/constans.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/main/example_by_curves/src/general/constans.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\main\example_by_curves\src\general\constans.cpp.obj.d
   FLAGS = -g -fopenmp
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\CADEX.dir
-  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\General
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\main\example_by_curves\src\general
 
-build CMakeFiles/CADEX.dir/Apps/src/TestTask/General/functions.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/General/functions.cpp || cmake_object_order_depends_target_CADEX
-  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\General\functions.cpp.obj.d
+build CMakeFiles/CADEX.dir/main/example_by_curves/src/natural/functions.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/main/example_by_curves/src/natural/functions.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\main\example_by_curves\src\natural\functions.cpp.obj.d
   FLAGS = -g -fopenmp
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\CADEX.dir
-  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\General
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\main\example_by_curves\src\natural
 
-build CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/with_omp.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/ByBasicCurves/with_omp.cpp || cmake_object_order_depends_target_CADEX
-  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves\with_omp.cpp.obj.d
+build CMakeFiles/CADEX.dir/main/example_by_curves/src/natural/functions_omp.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/main/example_by_curves/src/natural/functions_omp.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\main\example_by_curves\src\natural\functions_omp.cpp.obj.d
   FLAGS = -g -fopenmp
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\CADEX.dir
-  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\main\example_by_curves\src\natural
 
-build CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/without_omp.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/Apps/src/TestTask/ByBasicCurves/without_omp.cpp || cmake_object_order_depends_target_CADEX
-  DEP_FILE = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves\without_omp.cpp.obj.d
+build CMakeFiles/CADEX.dir/main/example_by_curves/src/natural/functions_not_omp.cpp.obj: CXX_COMPILER__CADEX_unscanned_Debug C$:/Users/Leere/Desktop/CADEX/main/example_by_curves/src/natural/functions_not_omp.cpp || cmake_object_order_depends_target_CADEX
+  DEP_FILE = CMakeFiles\CADEX.dir\main\example_by_curves\src\natural\functions_not_omp.cpp.obj.d
   FLAGS = -g -fopenmp
-  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/Curves_dll
+  INCLUDES = -IC:/Users/Leere/Desktop/CADEX/curves
   OBJECT_DIR = CMakeFiles\CADEX.dir
-  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\Apps\src\TestTask\ByBasicCurves
+  OBJECT_FILE_DIR = CMakeFiles\CADEX.dir\main\example_by_curves\src\natural
 
 
 # =============================================================================
@@ -328,7 +328,7 @@ build CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/without_omp.cpp.obj: 
 #############################################
 # Link the executable C:\Users\Leere\Desktop\CADEX\bin\CADEX.exe
 
-build C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe: CXX_EXECUTABLE_LINKER__CADEX_Debug CMakeFiles/CADEX.dir/Apps/main.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/General/constans.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/General/functions.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/with_omp.cpp.obj CMakeFiles/CADEX.dir/Apps/src/TestTask/ByBasicCurves/without_omp.cpp.obj | libCurves.dll.a C$:/msys64/mingw64/lib/libgomp.dll.a C$:/msys64/mingw64/lib/libmingwthrd.a || libCurves.dll
+build C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe: CXX_EXECUTABLE_LINKER__CADEX_Debug CMakeFiles/CADEX.dir/main/main.cpp.obj CMakeFiles/CADEX.dir/main/example_by_curves/src/general/constans.cpp.obj CMakeFiles/CADEX.dir/main/example_by_curves/src/natural/functions.cpp.obj CMakeFiles/CADEX.dir/main/example_by_curves/src/natural/functions_omp.cpp.obj CMakeFiles/CADEX.dir/main/example_by_curves/src/natural/functions_not_omp.cpp.obj | libCurves.dll.a C$:/msys64/mingw64/lib/libgomp.dll.a C$:/msys64/mingw64/lib/libmingwthrd.a || libCurves.dll
   FLAGS = -g
   LINK_LIBRARIES = libCurves.dll.a  C:/msys64/mingw64/lib/libgomp.dll.a  C:/msys64/mingw64/lib/libmingwthrd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CADEX.dir
@@ -673,103 +673,103 @@ build CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}CMakeFiles/ContinuousS
 #############################################
 # Utility command for package
 
-build Curves_dll/CMakeFiles/package.util: CUSTOM_COMMAND Curves_dll/all
+build curves/CMakeFiles/package.util: CUSTOM_COMMAND curves/all
   COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build && C:\msys64\mingw64\bin\cpack.exe --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build Curves_dll/package: phony Curves_dll/CMakeFiles/package.util
+build curves/package: phony curves/CMakeFiles/package.util
 
 
 #############################################
 # Utility command for package_source
 
-build Curves_dll/CMakeFiles/package_source.util: CUSTOM_COMMAND
+build curves/CMakeFiles/package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build && C:\msys64\mingw64\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/Leere/Desktop/CADEX/build/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build Curves_dll/package_source: phony Curves_dll/CMakeFiles/package_source.util
+build curves/package_source: phony curves/CMakeFiles/package_source.util
 
 
 #############################################
 # Utility command for test
 
-build Curves_dll/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\Curves_dll && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
+build curves/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\curves && C:\msys64\mingw64\bin\ctest.exe --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
 
-build Curves_dll/test: phony Curves_dll/CMakeFiles/test.util
+build curves/test: phony curves/CMakeFiles/test.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build Curves_dll/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\Curves_dll && C:\msys64\mingw64\bin\ccmake.exe -SC:\Users\Leere\Desktop\CADEX -BC:\Users\Leere\Desktop\CADEX\build"
+build curves/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\curves && C:\msys64\mingw64\bin\ccmake.exe -SC:\Users\Leere\Desktop\CADEX -BC:\Users\Leere\Desktop\CADEX\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build Curves_dll/edit_cache: phony Curves_dll/CMakeFiles/edit_cache.util
+build curves/edit_cache: phony curves/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build Curves_dll/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\Curves_dll && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\Leere\Desktop\CADEX -BC:\Users\Leere\Desktop\CADEX\build"
+build curves/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\curves && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\Leere\Desktop\CADEX -BC:\Users\Leere\Desktop\CADEX\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build Curves_dll/rebuild_cache: phony Curves_dll/CMakeFiles/rebuild_cache.util
+build curves/rebuild_cache: phony curves/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build Curves_dll/list_install_components: phony
+build curves/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build Curves_dll/CMakeFiles/install.util: CUSTOM_COMMAND Curves_dll/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\Curves_dll && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
+build curves/CMakeFiles/install.util: CUSTOM_COMMAND curves/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\curves && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build Curves_dll/install: phony Curves_dll/CMakeFiles/install.util
+build curves/install: phony curves/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build Curves_dll/CMakeFiles/install/local.util: CUSTOM_COMMAND Curves_dll/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\Curves_dll && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build curves/CMakeFiles/install/local.util: CUSTOM_COMMAND curves/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\curves && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build Curves_dll/install/local: phony Curves_dll/CMakeFiles/install/local.util
+build curves/install/local: phony curves/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build Curves_dll/CMakeFiles/install/strip.util: CUSTOM_COMMAND Curves_dll/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\Curves_dll && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build curves/CMakeFiles/install/strip.util: CUSTOM_COMMAND curves/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\Leere\Desktop\CADEX\build\curves && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build Curves_dll/install/strip: phony Curves_dll/CMakeFiles/install/strip.util
+build curves/install/strip: phony curves/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.
@@ -788,14 +788,14 @@ build Curves: phony libCurves.dll
 #############################################
 # Folder: C:/Users/Leere/Desktop/CADEX/build
 
-build all: phony libCurves.dll C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe Curves_dll/all
+build all: phony libCurves.dll C$:/Users/Leere/Desktop/CADEX/bin/CADEX.exe curves/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Leere/Desktop/CADEX/build/Curves_dll
+# Folder: C:/Users/Leere/Desktop/CADEX/build/curves
 
-build Curves_dll/all: phony
+build curves/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -804,14 +804,14 @@ build Curves_dll/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Leere/Desktop/CADEX/CMakeLists.txt C$:/Users/Leere/Desktop/CADEX/Curves_dll/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/FindOpenMP.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeRCCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Leere/Desktop/CADEX/CMakeLists.txt C$:/Users/Leere/Desktop/CADEX/curves/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/FindOpenMP.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeRCCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Leere/Desktop/CADEX/CMakeLists.txt C$:/Users/Leere/Desktop/CADEX/Curves_dll/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/FindOpenMP.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeRCCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake: phony
+build C$:/Users/Leere/Desktop/CADEX/CMakeLists.txt C$:/Users/Leere/Desktop/CADEX/curves/CMakeLists.txt C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/FindOpenMP.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeRCCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake: phony
 
 
 #############################################
